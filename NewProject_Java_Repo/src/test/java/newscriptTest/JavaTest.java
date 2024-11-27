@@ -17,6 +17,7 @@ public class JavaTest {
 		Thread.sleep(5000);
 		System.out.println("My first push successfully lunched");
 		driver.findElement(By.id("pass")).sendKeys("bindulokesh9@gmail.com");
+		System.out.println("My second push successfully lunched");
 		driver.manage().window().minimize();
 	}
 
