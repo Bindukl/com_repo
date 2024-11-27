@@ -15,6 +15,7 @@ public class JavaTest {
 		Thread.sleep(2000);
 		driver.findElement(By.id("email")).sendKeys("bindulokesh9@gmail.com");
 		Thread.sleep(5000);
+		System.out.println("My first push successfully lunched");
 		driver.findElement(By.id("pass")).sendKeys("bindulokesh9@gmail.com");
 		driver.manage().window().minimize();
 	}
